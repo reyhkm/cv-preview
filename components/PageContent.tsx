@@ -185,14 +185,14 @@ const PageContent: React.FC = () => {
             {isModalOpen && (
                 <div className="modal" style={{ display: 'block' }} onClick={() => setModalOpen(false)}>
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                        <button className="modal-close" onClick={() => setModalOpen(false)}>&times;</button>
+                        <button className="modal-close" onClick={() => setModalOpen(false)}>×</button>
                         <p className="section-subheading mb-2">Case Study</p>
                         <h2 className="text-3xl md:text-4xl font-serif mb-6">Arum - Barista AI</h2>
                         <div className="mb-6">
                             <img src="/rey.wuaze.com__i=1(iPhone 14 Pro Max).png" alt="Arum - Mobile Screenshot"/>
                         </div>
                         <p className="text-muted mb-6">Arum is a virtual assistant designed to elevate the ordering experience in a virtual café. Leveraging Google Gemini Flash, it comprehends natural language, provides personalized recommendations, and processes orders with seamless efficiency.</p>
-                        <a href="https://aicoffee.pages.dev" target="_blank" className="font-semibold hover:text-muted transition-colors">View Live Project &rarr;</a>
+                        <a href="https://aicoffee.pages.dev" target="_blank" className="font-semibold hover:text-muted transition-colors">View Live Project →</a>
                     </div>
                 </div>
             )}
@@ -243,7 +243,7 @@ const PageContent: React.FC = () => {
                     <a href="https://www.linkedin.com/in/reykal-al-hikam-469956286/" target="_blank" className="hover:text-foreground footer-link">LinkedIn</a>
                     <a href="https://www.instagram.com/reyhkm" target="_blank" className="hover:text-foreground footer-link">Instagram</a>
                 </div>
-                <p className="text-sm text-muted">&copy; 2025. All Rights Reserved.</p>
+                <p className="text-sm text-muted">© 2025. All Rights Reserved.</p>
             </div>
         </footer>
 
