@@ -1,6 +1,7 @@
 
 import React, { useState, useCallback } from 'react';
 import Chatbot from './components/Chatbot';
+import PageContent from './components/PageContent';
 import { BotIcon } from './components/icons';
 import type { Message } from './types';
 import { aiService } from './services/geminiService';
@@ -44,6 +45,8 @@ const App: React.FC = () => {
 
     return (
         <div className="font-sans">
+            <PageContent />
+
             {!isChatOpen && (
                 <button
                     onClick={toggleChat}
