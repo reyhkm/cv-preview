@@ -153,7 +153,7 @@ const PageContent: React.FC = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-12 md:gap-24 items-center">
                         <div className="animate-mask">
-                            <img src="photo.png" alt="Portrait of Reykal" className="w-full h-auto filter grayscale" loading="lazy" decoding="async"/>
+                            <img src="/photo.png" alt="Portrait of Reykal" className="w-full h-auto filter grayscale" loading="lazy" decoding="async"/>
                         </div>
                         <div className="max-w-md">
                             <div className="animate-mask"><p className="section-subheading mb-4">01 / About</p></div>
@@ -189,7 +189,7 @@ const PageContent: React.FC = () => {
                         <p className="section-subheading mb-2">Case Study</p>
                         <h2 className="text-3xl md:text-4xl font-serif mb-6">Arum - Barista AI</h2>
                         <div className="mb-6">
-                            <img src="rey.wuaze.com__i=1(iPhone 14 Pro Max).png" alt="Arum - Mobile Screenshot"/>
+                            <img src="/rey.wuaze.com__i=1(iPhone 14 Pro Max).png" alt="Arum - Mobile Screenshot"/>
                         </div>
                         <p className="text-muted mb-6">Arum is a virtual assistant designed to elevate the ordering experience in a virtual café. Leveraging Google Gemini Flash, it comprehends natural language, provides personalized recommendations, and processes orders with seamless efficiency.</p>
                         <a href="https://aicoffee.pages.dev" target="_blank" className="font-semibold hover:text-muted transition-colors">View Live Project &rarr;</a>
@@ -210,7 +210,7 @@ const PageContent: React.FC = () => {
                     </div>
                     <div>
                         <div className="animate-mask"><p className="section-subheading mb-12">Certification</p></div>
-                        <div className="animate-mask" style={{ transitionDelay: '0.1s' }}><a href="https://coursera.org/verify/specialization/QG3SZH3EVR8L" target="_blank" rel="noopener noreferrer" className="block border border-muted/50 dark:border-gray-700 p-2 hover:border-foreground dark:hover:border-background transition-colors"><img src="sertifikat.png" alt="Sertifikat Machine Learning" className="w-full" loading="lazy" decoding="async" /></a></div>
+                        <div className="animate-mask" style={{ transitionDelay: '0.1s' }}><a href="https://coursera.org/verify/specialization/QG3SZH3EVR8L" target="_blank" rel="noopener noreferrer" className="block border border-muted/50 dark:border-gray-700 p-2 hover:border-foreground dark:hover:border-background transition-colors"><img src="/sertifikat.png" alt="Sertifikat Machine Learning" className="w-full" loading="lazy" decoding="async" /></a></div>
                     </div>
                 </div>
             </div>
