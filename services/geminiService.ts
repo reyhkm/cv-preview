@@ -62,6 +62,8 @@ class GeminiService {
                 model: 'gemini-2.5-flash',
                 config: {
                     systemInstruction: CV_DATA,
+                    topP: 0,
+                    temperature: 0,
                 },
             });
         } catch (error) {
